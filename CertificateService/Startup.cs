@@ -83,7 +83,7 @@ namespace CertificateService
                 app.UseSwagger();
                 app.UseSwaggerUI(c =>
                 {
-                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "PlatformService API v1");
+                    c.SwaggerEndpoint("/swagger/v1/swagger.json", "CertificateService API v1");
                     c.RoutePrefix = string.Empty; // Set Swagger UI at the root of the application
                 });
             }

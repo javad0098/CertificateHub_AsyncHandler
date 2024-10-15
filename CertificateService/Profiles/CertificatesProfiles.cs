@@ -8,7 +8,6 @@ namespace CertificateService.Profiles
     {
         public CertificatesProfiles() // Removed the unnecessary parameter declaration
         {
-            // // CreateMap statement to map Platform to PlatformReadDto
             CreateMap<Certificate,CertificateReadDto >();
             CreateMap<CertificateCreateDtos, Certificate>();
             CreateMap<CertificateReadDto, CertificatePublishedDto>();

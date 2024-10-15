@@ -1,0 +1,76 @@
+# Ignore bin and obj folders in all projects
+**/bin/
+**/obj/
+
+# Ignore build output files
+**/out/
+**/debug/
+**/release/
+
+# Ignore compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore user-specific Visual Studio/VSCode/JetBrains Rider files
+.vscode/
+*.user
+*.suo
+*.csproj.user
+.idea/
+*.iml
+*.sln.docstates
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore database-related files (like SQLite local databases)
+*.db
+*.db-shm
+*.db-wal
+
+# Ignore secrets and sensitive configuration files
+appsettings.json
+appsettings.*.json
+secrets.json
+
+# Ignore Kubernetes-related files
+.kube/
+k8s/*.yaml
+k8s/*.yml
+
+# Ignore any node_modules or dependencies directories
+node_modules/
+bower_components/
+
+# Ignore package and dependency manager files
+*.lock
+*.cache
+yarn-error.log
+package-lock.json
+npm-debug.log
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore coverage and test result files
+coverage/
+*.coverage
+*.testresults
+TestResult.xml
+.vstest/
+
+# Ignore Python virtual environment (if applicable)
+venv/
+__pycache__/
+
+# Ignore any personal IDE/editor configurations
+*.swp
+*.swo
+
+# Ignore CI/CD related files
+*.yml
+*.yaml
