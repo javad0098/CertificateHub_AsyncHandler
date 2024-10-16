@@ -25,11 +25,11 @@ namespace CertificateService.SyncDataServices.Http
             var response= await _httpClient.PostAsync($"{_configuration["SkillService"]}", httpContent);
             if(response.IsSuccessStatusCode)
             {
-                Console.WriteLine($"=>sync post to command service was ok the address is {response.Headers} and {_configuration["SkillService"]}");
+                Console.WriteLine($"=>sync post to Skill service was ok the address is {response.Headers} and {_configuration["SkillService"]}");
             }
             else
             {
-                Console.WriteLine($"=>sync post to command service failed the address is {response.Headers} and {_configuration["SkillService"]}");
+                Console.WriteLine($"=>sync post to Skill service failed the address is {response.Headers} and {_configuration["SkillService"]}");
             }
 
         }
